@@ -46,12 +46,12 @@ function MyApp(props) {
     return (
         <>
             <Head>
-                <title>Ecommerce</title>
+                <title>QN-Shop</title>
 
                 {/* <!-- Primary Meta Tags --> */}
 
-                <meta name="title" content="Ecommerce" />
-                <meta name="description" content="Ecommerce" />
+                <meta name="title" content="QNShop" />
+                <meta name="description" content="QNShop" />
 
                 {/* <!-- Open Graph / Facebook --> */}
                 {/* <meta property="og:type" content="website" />
@@ -68,7 +68,7 @@ function MyApp(props) {
         <meta property="twitter:image" content="https://www.samsungtvtheserif.com/_next/image?url=%2Fimages%2Fbanner.png&w=1920&q=75" /> */}
 
                 {/* <meta property="og:image" content="" alt="cover" /> */}
-                <link rel="shortcut icon" href="/favicon.png" />
+                <link rel="icon" href="/faviconCustom.ico"></link>
             </Head>
             <QueryClientProvider client={queryClient}>
                 <Hydrate state={pageProps.dehydratedState}>

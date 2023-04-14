@@ -45,15 +45,15 @@ const ListLinks = [
 
 const ListContact = [
     {
-        name: 'District 7, Hồ Chí Minh City',
+        name: 'District Tân Phú, Hồ Chí Minh City',
         icon: <IconLocation />,
     },
     {
-        name: '0333475095',
+        name: '0778885120',
         icon: <IconPhone />,
     },
     {
-        name: 'mrphuc48@gmail.com',
+        name: 'nguyenducanhquyen9981@gmail.com',
         icon: <IconEmail />,
     },
 ];
@@ -65,13 +65,13 @@ export function Footer() {
             <Container>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-4 text-text_footer">
                     <div className="lg:col-span-2  w-full ">
-                        <h3 className="text-lg lg:text-xl lg:text-center text-white font-semibold mb-6">
-                            Ecommerce Shop
-                        </h3>
+                        <h3 className="text-lg lg:text-xl lg:text-center text-white font-semibold mb-6">QN-Shop</h3>
                         <p className="text-sm lg:text-base  leading-[30px]">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, sunt vel atque,
-                            asperiores incidunt non distinctio praesentium repudiandae aut autem dolorem. Soluta quaerat
-                            sapiente a?
+                            If you are looking for a website to buy and sell online then QN-Shop is a great choice for
+                            you. QN-Shop is an e-commerce site that allows buyers and sellers to interact and exchange
+                            information easily about the shop's products and promotions. Therefore, buying and selling
+                            on Shopee becomes faster and simpler. You can chat directly with the seller to ask directly
+                            about the item to buy. And if you want to buy genuine, reputable product lines.
                         </p>
                     </div>
                     <div className=" w-full text-text_footer">
@@ -103,17 +103,17 @@ export function Footer() {
                 </div>
                 <div className="flex  flex-col md:flex-row gap-4 md:gap-0 md:justify-between items-center text-text_footer mt-6">
                     <p className="text-sm lg:text-base ">
-                        Copyright - {year}, website made by Thành Phúc. All Rights Reserved.
+                        Copyright - {year}, website made by Quyền Nguyễn. All Rights Reserved.
                     </p>
                     <div className="flex items-center gap-2">
                         <p className="text-sm lg:text-base m-0">Follow:</p>
                         <span className="text-white bg-white rounded-full">
-                            <a href="https://www.facebook.com/profile.php?id=100030760065201">
+                            <a href="https://www.facebook.com/profile.php?id=100004341762482" target="_blank">
                                 <IconFB />
                             </a>
                         </span>
                         <span className="bg-white rounded-full">
-                            <a href="https://github.com/PhucSmile?tab=repositories">
+                            <a href="https://github.com/QuyenNguyen9981?tab=repositories" target="_blank">
                                 <IconGit />
                             </a>
                         </span>

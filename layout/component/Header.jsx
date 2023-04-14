@@ -54,7 +54,7 @@ export function Header() {
                                 <Image src="/images/logo.png" layout="fill" objectFit="contain" alt="Logo" />
                             </div>
                             <div className="hidden lg:block text-center text-primary font-bold text-base lg:text-[20px]">
-                                <h3 className="mt-[5px]">Ecommerce</h3>
+                                <h3 className="mt-[5px]">Quality-New</h3>
                                 <h3>Shop</h3>
                             </div>
                         </div>
